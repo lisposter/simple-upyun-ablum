@@ -1,0 +1,27 @@
+{
+  "name": "simple-upyun-ablum",
+  "version": "0.1.0",
+  "description": "fast create a ablum with the photos in a dir using upyun",
+  "main": "index.js",
+  "dependencies": {
+  },
+  "devDependencies": {
+    "istanbul": "^0.3.2",
+    "mocha": "^1.21.5",
+    "should": "^4.0.4"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/lisposter/simple-upyun-ablum.git"
+  },
+  "bugs": {
+    "url": "https://github.com/lisposter/simple-upyun-ablum/issues"
+  },
+  "homepage": "https://github.com/lisposter/simple-upyun-ablum",
+  "keywords": ["ablumn","upyun","photo","share"],
+  "author": "Leigh Zhu",
+  "license": "MIT"
+}
