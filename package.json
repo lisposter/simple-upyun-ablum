@@ -4,6 +4,7 @@
   "description": "fast create a ablum with the photos in a dir using upyun",
   "main": "index.js",
   "dependencies": {
+    "upyun-http-signature": "^0.1.5"
   },
   "devDependencies": {
     "istanbul": "^0.3.2",
@@ -21,7 +22,12 @@
     "url": "https://github.com/lisposter/simple-upyun-ablum/issues"
   },
   "homepage": "https://github.com/lisposter/simple-upyun-ablum",
-  "keywords": ["ablumn","upyun","photo","share"],
+  "keywords": [
+    "ablumn",
+    "upyun",
+    "photo",
+    "share"
+  ],
   "author": "Leigh Zhu",
   "license": "MIT"
 }
