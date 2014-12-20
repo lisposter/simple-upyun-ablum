@@ -15,6 +15,14 @@ $ npm install simple-upyun-ablum
 
 ## Usage
 
+```js
+var up = require('simple-upyun-ablum');
+up('/path/to/images/dir', function(err, res) {
+  console.log(res);
+});
+```
+
+
 ## License
 
 MIT © [Leigh Zhu](#)
