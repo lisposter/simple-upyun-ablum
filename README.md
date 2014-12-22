@@ -11,8 +11,6 @@ fast create a ablum with the photos in a dir using upyun
 $ npm install simple-upyun-ablum
 ```
 
-## Example
-
 ## Usage
 
 ```js
@@ -20,6 +18,12 @@ var up = require('simple-upyun-ablum');
 up('/path/to/images/dir', function(err, res) {
   console.log(res);
 });
+```
+
+**CLI**
+
+```sh
+$ up2ablum /path/to/dir
 ```
 
 
