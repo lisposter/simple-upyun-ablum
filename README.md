@@ -29,4 +29,4 @@ $ up2ablum /path/to/dir
 
 ## License
 
-MIT © [Leigh Zhu](#)
+MIT © [Leigh Zhu](http://zhu.li)
