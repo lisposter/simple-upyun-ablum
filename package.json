@@ -1,9 +1,11 @@
 {
-  "name": "simple-upyun-ablum",
+  "name": "upyun-dispenser",
   "version": "0.1.0",
-  "description": "fast create a ablum with the photos in a dir using upyun",
-  "main": "index.js",
+  "description": "fast upload batch files in a dir to upyun",
+  "main": "lib/up.js",
   "dependencies": {
+    "async": "^0.9.0",
+    "request": "^2.51.0",
     "upyun-http-signature": "^0.1.5"
   },
   "devDependencies": {
@@ -16,17 +18,17 @@
   },
   "repository": {
     "type": "git",
-    "url": "git://github.com/lisposter/simple-upyun-ablum.git"
+    "url": "git://github.com/lisposter/upyun-dispenser.git"
   },
   "bugs": {
-    "url": "https://github.com/lisposter/simple-upyun-ablum/issues"
+    "url": "https://github.com/lisposter/upyun-dispenser/issues"
   },
-  "homepage": "https://github.com/lisposter/simple-upyun-ablum",
+  "homepage": "https://github.com/lisposter/upyun-dispenser",
   "keywords": [
-    "ablumn",
+    "uploader",
+    "batch",
     "upyun",
-    "photo",
-    "share"
+    "cdn"
   ],
   "author": "Leigh Zhu",
   "license": "MIT"
